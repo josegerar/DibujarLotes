@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/buttonIniciarMedicion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Medicion"
+        android:onClick="IniciarMedicion"/>
+    <Button
+        android:id="@+id/buttonFinalizarMedicion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizar Medicion"
+        android:onClick="FinalizarMedicion"/>
+
+    <org.osmdroid.views.MapView android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>
